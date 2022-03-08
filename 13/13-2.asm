@@ -4,7 +4,7 @@ assume cs:code
 code segment
     start:      mov ax,cs
                 mov ds,ax
-                mov si,offset sqr 
+                mov si,offset sqr
                 mov ax,0
                 mov es,ax
                 mov di,200h

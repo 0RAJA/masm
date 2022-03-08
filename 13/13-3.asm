@@ -2,10 +2,10 @@
 assume cs:code
 
 code segment
-    start:      
+    start:
                 mov di,cs
                 mov ds,di
-                mov si,offset lp 
+                mov si,offset lp
                 mov di,0
                 mov es,di
                 mov di,200h
